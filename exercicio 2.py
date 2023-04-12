@@ -1,6 +1,5 @@
-nome=input("digite seu nome")
-nota1=float(input("digite a 1° nota"))
-nota2=float(input ("digite a 2° nota"))
-media=(nota1+nota2)/2
-print("nome do aluno:",nome,"sua media é:",media)
-
+num=int(input("digite um numero"))
+t = 1
+for t in range(1,11):
+    r= num*t
+    print(f"{num} x {t} = {r}")

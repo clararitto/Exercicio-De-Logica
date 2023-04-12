@@ -1,6 +1,4 @@
-A=5
-B=10
-x=B
-B=A
-A=x
-print(A,B)
+num=int(input("digite um numero"))
+f=0
+for f in range(1,num+1):
+    print(f, end=" ")
