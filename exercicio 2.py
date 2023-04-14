@@ -1,5 +1,7 @@
-num=int(input("digite um numero"))
-t = 1
-for t in range(1,11):
-    r= num*t
-    print(f"{num} x {t} = {r}")
+n1=float(input("Digite o 1° Valor"))
+n2=float(input("Digite o 2° Valor"))
+while n2==0:
+    print("segundo valor invalido")
+    n2=float(input())
+resultado=n1/n2
+print("o resultado é",resultado)
