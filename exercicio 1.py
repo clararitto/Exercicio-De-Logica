@@ -1,8 +1,9 @@
-soma=0
-alunosn=float(input("Digite a quantidade de Alunos"))
-while n <= alunosn :
-    notas=float(input("Digite a nota de cada aluno"))
-    soma+=notas
-    n+=1
-media=soma/alunosn
-print("a media da sala é",media)
+n1=float(input("Digite a 1ºnota "))
+n2=float(input("Digite a 2º nota "))
+media=(n1+n2)/2
+if media>6:
+    print("Aprovado")
+elif media>=4 and media<=6:
+    print("Verificação Suplementar")
+else:
+    print("Reprovado")

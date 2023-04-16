@@ -1,9 +1,13 @@
-n1=int(input("Digite a primeira nota"))
+n1=float(input("digite o primeiro numero "))
+n2=float(input("Digite o segundo numero "))
+n3=float(input("Digite o terceiro numero "))
+if n1>n2 and n1>n3:
+    print("o numero maior é: ",n1)
+if n2>n1 and n2>n3:
+    print("o numero maior é: ", n2)
+if n3>n1 and n3>n2:
+    print("o numero maior é: ", n3)
 
-while n1<0 or n1>10:
-    n1=int(input("numero invalido,digite novamente"))
-n2=int(input("digite a segunda nota"))
-while n2<0 or n2>10:
-    n2=int(input("numero invalido,tente novamente"))
-media=(n1+n2)/2
-print("a media é  :",media)
+
+
+
