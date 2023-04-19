@@ -1,4 +1,2 @@
-id=int(input("Digite a sua idade"))
-ano=int(input("Digite o seu ano atual"))
-cal=ano-id
-print("o ano dde seu nascimento é: ",cal)
+for x in range(1,11):
+    print(x, end=" ")
